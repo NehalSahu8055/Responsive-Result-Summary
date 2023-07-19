@@ -1,4 +1,4 @@
-# Frontend Mentor - Product preview card component solution
+# Frontend Mentor - Result Summary solution
 
 This is a solution to the [Product preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/product-preview-card-component-GO7UmttRfa).
 
@@ -15,8 +15,8 @@ This is a solution to the [Product preview card component challenge on Frontend 
 
 ### Links
 
-- Solution URL: [Click here](https://github.com/NehalSahu8055/Responsive-Product-Preview-remastered)
-- Live Site URL: [Click here](https://product-preview-remastered-nehal.netlify.app/)
+- Solution URL: [Click here](https://github.com/NehalSahu8055/Responsive-Result-Summary)
+- Live Site URL: [Click here](https://result-summary-nehal.netlify.app/)
 
 ## My process
 
@@ -30,7 +30,7 @@ This is a solution to the [Product preview card component challenge on Frontend 
 
 - Mobile-first workflow
 - Fully Responsive
-- JSON Data Parsed
+- JSON Data Parsing
 
 ### Useful resources
 
