@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --lightRed: hsl(0, 52%, 51%);
+  --orangeYellow: hsl(39, 82%, 32%);
+  --greenTeal: hsl(166, 100%, 25%);
+  --cobaltBlue: hsl(234, 85%, 45%);
+
+  --lightSlateBlue: hsl(252, 100%, 67%);
+  --lightRoyalBlue: hsl(241, 81%, 54%);
+
+  --violetBlue: hsl(256, 72%, 46%);
+  --persianBlue: hsl(224, 30%, 27%);
+  --persian: hsla(241, 72%, 46%, 0);
+  --violet: hsla(256, 72%, 46%, 1);
+  --gradBg1: hsl(256, 86%, 57%);
+  --gradBg2: hsl(241, 81%, 54%);
+  --white: hsl(0, 0%, 100%);
+  --paleBlue: hsl(221, 100%, 96%);
+  --lightLavender: hsl(241, 100%, 89%);
+  --darkGrayBlue: hsl(224, 30%, 27%);
+  --lightGray: hsl(257, 3%, 43%);
+
+  /* gradients */
+  --gradientButton: linear-gradient(
+    var(--lightSlateBlue),
+    var(--lightRoyalBlue)
+  );
+  --gradientBackground: linear-gradient(var(--gradBg1), var(--gradBg2));
+  --gradientCircle: linear-gradient(var(--violet), var(--persian));
+}
+body {
+  font-family: "Hanken Grotesk", sans-serif;
+}

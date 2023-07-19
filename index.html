@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Results summary component" />
+    <meta
+      name="keywords"
+      content="Frontend Mentor, Results summary component , nehal, Responsive Designs"
+    />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin />
+    <link
+      rel="preload"
+      as="style"
+      onload="this.rel='stylesheet'"
+      href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap"
+    />
+
+    <!-- cdn tailwind -->
+    <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+
+    <!-- Linking CSS stylesheet -->
+    <link rel="stylesheet" href="src/css/output.min.css" />
+
+    <!-- JS Linking -->
+    <script defer src="src/js/script.min.js"></script>
+    <title>Results summary component</title>
+  </head>
+  <body class="flex justify-center items-center min-h-screen text-lg md:p-4">
+    <main
+      class="flex flex-col bg-white rounded-[1.75rem] w-[46.125rem] md:flex-row shadow-[0_20px_50px_rgba(8,_112,_184,_0.7)]"
+    >
+      <h1 class="sr-only">Result Summary</h1>
+      <article
+        id="result__percentage"
+        class="flex flex-col justify-center items-center rounded-b-[1.75rem] md:rounded-[1.75rem] p-[1.875rem] md:p-[2.5rem] w-full bg-[image:var(--gradientBackground)] text-[var(--lightLavender)]"
+      >
+        <h2 class="font-bold text-[1.5rem] capitalize pb-10">your result</h2>
+        <div
+          class="circle mb-10 flex flex-col gap-4 items-center justify-center rounded-full w-[12.5rem] h-[12.5rem] bg-[image:var(--gradientCircle)]"
+        >
+          <p class="average-score text-[4.0625rem] text-white font-extrabold">
+            --
+          </p>
+          <p>of 100</p>
+        </div>
+
+        <p class="text-white text-[1.75rem] font-bold pb-4">Great</p>
+        <p class="text-center px-[0.5rem] md:px-[1.2rem]">
+          You scored higher than <span class="percent">--</span>% of the people
+          who have taken these tests.
+        </p>
+      </article>
+      <article
+        id="summary"
+        class="flex flex-col justify-center md:rounded-tr-[1.75rem] md:rounded-br-[1.75rem] p-[1.875rem] md:p-[2.5rem] w-full bg-white"
+      >
+        <h2 class="font-bold text-[1.5rem] pb-10 flex">Summary</h2>
+        <ul class="flex flex-col gap-4">
+          <li>
+            <div
+              class="reaction w-full flex justify-between p-3 flex-wrap rounded-lg bg-[#FFF6F5]"
+            >
+              <div class="text flex gap-3 items-center">
+                <img class="icon" width="20" height="20" alt="" />
+                <p class="category capitalize font-bold text-[var(--lightRed)]">
+                  Loading...
+                </p>
+              </div>
+              <div class="flex items-center">
+                <span class="score pr-2">
+                  <div
+                    class="inline-block h-5 w-5 animate-spin rounded-full border-2 border-solid border-r-transparent border-l-transparent align-[-0.125em] motion-reduce:animate-[spin_1.5s_linear_infinite] border-[var(--lightRed)]"
+                    role="status"
+                  >
+                    <span class="sr-only">Loading...</span>
+                  </div>
+                </span>
+                <span class="text-[var(--lightGray)]">/ 100</span>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div
+              class="memory w-full flex justify-between p-3 flex-wrap rounded-lg bg-[#FFFBF2]"
+            >
+              <div class="text flex gap-3 items-center">
+                <img class="icon" width="20" height="20" alt="" />
+                <p
+                  class="category capitalize font-bold text-[var(--orangeYellow)]"
+                >
+                  Loading...
+                </p>
+              </div>
+              <div class="flex items-center">
+                <span class="score pr-2">
+                  <div
+                    class="inline-block h-5 w-5 animate-spin rounded-full border-2 border-solid border-r-transparent border-l-transparent align-[-0.125em] motion-reduce:animate-[spin_1.5s_linear_infinite] border-[var(--orangeYellow)]"
+                    role="status"
+                  >
+                    <span class="sr-only">Loading...</span>
+                  </div>
+                </span>
+                <span class="text-[var(--lightGray)]">/ 100</span>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div
+              class="verbal w-full flex justify-between p-3 flex-wrap rounded-lg bg-[#F2FBFA]"
+            >
+              <div class="text flex gap-3 items-center">
+                <img class="icon" width="20" height="20" alt="" />
+                <p
+                  class="category capitalize font-bold text-[var(--greenTeal)]"
+                >
+                  Loading...
+                </p>
+              </div>
+
+              <div class="flex items-center">
+                <span class="score pr-2">
+                  <div
+                    class="inline-block h-5 w-5 animate-spin rounded-full border-2 border-solid border-r-transparent border-l-transparent align-[-0.125em] motion-reduce:animate-[spin_1.5s_linear_infinite] border-[var(--greenTeal)]"
+                    role="status"
+                  >
+                    <span class="sr-only">Loading...</span>
+                  </div>
+                </span>
+                <span class="text-[var(--lightGray)]">/ 100</span>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div
+              class="visual w-full flex justify-between p-3 flex-wrap rounded-lg bg-[#F3F3FD]"
+            >
+              <div class="text flex gap-3 items-center">
+                <img class="icon" width="20" height="20" alt="" />
+                <p
+                  class="category capitalize font-bold text-[var(--cobaltBlue)]"
+                >
+                  Loading...
+                </p>
+              </div>
+              <div class="flex items-center">
+                <span class="score pr-2">
+                  <div
+                    class="inline-block h-5 w-5 animate-spin rounded-full border-2 border-solid border-r-transparent border-l-transparent align-[-0.125em] motion-reduce:animate-[spin_1.5s_linear_infinite] border-[var(--cobaltBlue)]"
+                    role="status"
+                  >
+                    <span class="sr-only">Loading...</span>
+                  </div>
+                </span>
+                <span class="text-[var(--lightGray)]">/ 100</span>
+              </div>
+            </div>
+          </li>
+          <li class="text-center pt-10">
+            <button
+              class="capitalize w-full py-[1rem] rounded-full text-white bg-[var(--persianBlue)] hover:bg-[image:var(--gradientButton)]"
+            >
+              continue
+            </button>
+          </li>
+        </ul>
+      </article>
+    </main>
+  </body>
+</html>
